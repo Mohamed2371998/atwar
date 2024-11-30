@@ -777,6 +777,7 @@ section,
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: #ff9151;
   position: relative;
 }
 
