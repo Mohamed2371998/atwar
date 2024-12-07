@@ -1096,10 +1096,10 @@ section,
   color: var(--default-color);
 }
 .hero-btn{
-  font-family: var(--heading-font);
+  font-family:var(--heading-font);
   font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 2px;
   display: inline-block;
   padding: 12px 40px;
   border-radius: 5px;
