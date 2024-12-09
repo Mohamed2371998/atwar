@@ -1096,6 +1096,7 @@ section,
   color: var(--default-color);
 }
 .hero-btn{
+  flex:1;
   font-family:var(--heading-font);
   font-weight: 500;
   font-size: 20px;
@@ -1107,6 +1108,7 @@ section,
   margin: 10px;
   border: 1px solid var(--default-color);
   color: var(--default-color);
+  box-sizing: border-box;
 }
 .hero-btn:hover{
   background: var(--accent-color);
