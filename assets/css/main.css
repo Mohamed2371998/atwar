@@ -340,17 +340,18 @@ h6 {
     font-size: 28px;
     line-height: 0;
     margin-right: 10px;
+    margin-left: -60px;
     cursor: pointer;
     transition: color 0.3s;
   }
 
   .navmenu {
-    padding: 0;
+    padding: 80px;
     z-index: 9997;
   }
 
   .navmenu ul {
-    display: none;
+    display:none;
     list-style: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
@@ -383,7 +384,7 @@ h6 {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
-    width: 30px;
+    width: 50px;
     height: 30px;
     display: flex;
     align-items: center;
@@ -436,11 +437,12 @@ h6 {
 
   .mobile-nav-active .mobile-nav-toggle {
     color: #fff;
-    position: absolute;
+    position:fixed;
     font-size: 32px;
     top: 15px;
     right: 15px;
     margin-right: 0;
+    margin-left: 60rem;
     z-index: 9999;
   }
 
@@ -453,7 +455,7 @@ h6 {
   }
 
   .mobile-nav-active .navmenu>ul {
-    display: block;
+    display:block;
   }
 }
 
@@ -913,6 +915,7 @@ section,
 }
 
 .about .content ul {
+  display:list-item;
   list-style: none;
   padding: 0;
 }
